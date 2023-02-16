@@ -33,6 +33,7 @@ img {
   font-size: 2rem;
   letter-spacing: 0.07rem;
   text-align: center;
+  margin-top: 1.5rem;
 }
 
 .textbox {
@@ -46,17 +47,19 @@ img {
   font-weight: 400;
   font-style: normal;
   margin-top: 1rem;
+  line-height: 23px;
+  text-align: center;
 }
 
 .textbox button {
-  margin-top: 5rem;
+  margin-top: 3rem;
   border-radius: 50px;
   border: 1px solid;
-  padding: 10px 30px;
+  padding: 13px 30px;
   text-align: center;
   display: inline-block;
   border-color: #584c46;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #584c46;
   background-color: transparent;
   font-family: "mr-eaves-xl-modern", sans-serif;
@@ -101,7 +104,17 @@ img {
     margin: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 4rem;
     /* margin: 2rem; */
+  }
+
+  .boxes h2 {
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 2rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
   }
 }
