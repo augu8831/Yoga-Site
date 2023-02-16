@@ -55,7 +55,7 @@ img {
   margin-top: 3rem;
   border-radius: 50px;
   border: 1px solid;
-  padding: 13px 30px;
+  padding: 1rem 1rem;
   text-align: center;
   display: inline-block;
   border-color: #584c46;
@@ -69,8 +69,8 @@ img {
 
 @media (min-width: 800px) {
   section img {
-    width: 100%;
     height: auto;
+    width: 27rem;
   }
 
   article img {
@@ -80,7 +80,7 @@ img {
   .textbox {
     display: flex;
     flex-direction: column;
-    margin: 7rem;
+    padding: 6rem;
   }
 
   .textbox p {
@@ -88,11 +88,12 @@ img {
     font-family: "mr-eaves-xl-modern", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 1rem;
+    padding: 1rem;
   }
 
   .textbox button {
-    margin-top: 5rem;
+    margin-top: 3rem;
+    padding: 1rem 1rem;
   }
 
   .indeximg {
@@ -101,7 +102,7 @@ img {
   }
 
   .boxes {
-    margin: 10rem;
+    padding: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;

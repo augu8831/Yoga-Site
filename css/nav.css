@@ -49,8 +49,7 @@ justify-content: center; */
 }
 .secondnav input[type="text"] {
   padding: 9px 6px;
-  border-color: #b9b9b9;
-  border: 1px solid;
+  border: none;
   background-color: white;
   border-radius: 30px;
   margin: 0.5rem;
