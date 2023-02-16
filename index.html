@@ -4,27 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/mjh5lzj.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <ul>
-        <li><a href="">PRACTICES</a></li>
-        <li><a href="">WORKSHOPS</a></li>
-        <li><a href="">SHOP</a></li>
-        <li><a href="">ABOUT</a></li>
-      </ul>
+      <div class="container">
+        <nav>
+          <div class="logobrand">
+            <a href="index.html">u:YOGA</a>
+          </div>
+          <div class="mainnav">
+            <ul>
+              <li><a href="">PRACTICES</a></li>
+              <li><a href="">WORKSHOPS</a></li>
+              <li><a href="">SHOP</a></li>
+              <li><a href="">ABOUT</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="secondnav">
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-      <article>
+      <article class="indeximg">
         <img src="img/illustrations/yoga_illustration.svg" alt="Yoga illustration" />
       </article>
+      <section class="boxes">
+        <div>
+          <img src="img/other/yoga11.jpg" alt="Yoga set up" />
+        </div>
+        <div class="textbox">
+          <h2>Overskrift</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eius doloribus nobis cupiditate totam inventore dolorum magnam beatae aperiam libero. Excepturi suscipit expedita saepe neque provident sunt aspernatur eveniet sed?</p>
+          <button>Explore</button>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="newsletter">
         <h2>NEWSLETTER</h2>
         <form action="/action_page.php">
-          <label for="email">Enter your email:</label>
+          <label for="email">Email</label>
           <input type="email" id="email" name="email" />
           <input type="submit" />
         </form>

@@ -1,4 +1,22 @@
 footer {
-  background-color: #e6e4cd;
+  /* background-color: #e6e4cd; */
+  background-color: #b29184;
   text-align: center;
+}
+
+h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+}
+
+form {
+  color: #7d7673e0;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
 }
