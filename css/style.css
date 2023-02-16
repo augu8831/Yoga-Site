@@ -18,6 +18,23 @@ img {
   justify-content: center;
 }
 
+.productpageimg {
+  display: flex;
+  justify-content: center;
+}
+
+.h1text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 5rem;
+}
+
 .boxes {
   margin: 2rem;
   display: flex;
@@ -73,10 +90,17 @@ img {
     width: 27rem;
   }
 
-  article img {
+  .indeximg img {
     width: 30%;
     height: auto;
   }
+
+  .productpageimg img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+  }
+
   .textbox {
     display: flex;
     flex-direction: column;
@@ -94,11 +118,6 @@ img {
   .textbox button {
     margin-top: 3rem;
     padding: 1rem 1rem;
-  }
-
-  .indeximg {
-    display: flex;
-    justify-content: center;
   }
 
   .boxes {
