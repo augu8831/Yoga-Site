@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f4ed;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.indeximg {
+  display: flex;
+  justify-content: center;
+}
+
+.productpageimg {
+  display: flex;
+  justify-content: center;
+}
+
+.h1text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+.boxes {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxes h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.textbox p {
+  color: #584c46;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+  text-align: center;
+}
+
+.textbox button {
+  margin-top: 3rem;
+  border-radius: 50px;
+  border: 1px solid;
+  padding: 1rem 1rem;
+  text-align: center;
+  display: inline-block;
+  border-color: #584c46;
+  font-size: 1.3rem;
+  color: #584c46;
+  background-color: transparent;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@media (min-width: 800px) {
+  section img {
+    height: auto;
+    width: 27rem;
+  }
+
+  .indeximg img {
+    width: 30%;
+    height: auto;
+  }
+
+  .productpageimg img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+  }
+
+  .textbox {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+  }
+
+  .textbox p {
+    color: #584c46;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem;
+  }
+
+  .textbox button {
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+  }
+
+  .boxes {
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    /* margin: 2rem; */
+  }
+
+  .boxes h2 {
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 2rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
+  }
+}
