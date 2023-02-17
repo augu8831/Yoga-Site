@@ -2,6 +2,24 @@
   margin-top: 2rem;
 }
 
+.section1 {
+  scroll-padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.dl_info {
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section2 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
 @media (min-width: 800px) {
   .section2 {
     display: flex;
@@ -9,8 +27,31 @@
   }
 
   .productshow {
+    padding: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 0;
+  }
+
+  .section1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .section2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5rem;
+    flex-direction: column;
+  }
+
+  .section3 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
   }
 }
