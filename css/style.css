@@ -84,6 +84,28 @@ img {
   font-style: normal;
 }
 
+.section2 button {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 28px;
+  width: 100%;
+  font-family: "elza-narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #e7e7e7;
+  color: #584c46;
+  border-radius: 12px;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.categoryname {
+}
+
 @media (min-width: 800px) {
   section img {
     height: auto;
