@@ -138,3 +138,8 @@ img {
     text-align: center;
   }
 }
+
+.productpage5img {
+  height: 10px;
+  object-fit: none;
+}
