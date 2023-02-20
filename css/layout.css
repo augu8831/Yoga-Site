@@ -1,6 +1,10 @@
 .buyitem {
   margin-top: 2rem;
 }
+.buyitem img {
+  width: 100%;
+  height: auto;
+}
 
 .section1 {
   scroll-padding-bottom: 1rem;
@@ -53,5 +57,26 @@
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .dl_info {
+    padding-top: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .yogaimg {
+    display: flex;
+    justify-content: center;
+  }
+  .yogah2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+  }
+
+  .yogatyper article {
+    margin: 5rem;
   }
 }
