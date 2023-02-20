@@ -37,34 +37,15 @@
       </article>
 
       <div class="grid-4">
-        <article class="smallProduct">
-          <img src="img/products/equipment/pillows/pillow_1.png" alt="Produkt" />
-          <h3>Singing Bowl</h3>
-          <p class="categoryname">Meditation | Sounds | u:Yoga</p>
-          <p class="price">DKK 499,-</p>
-          <a class="read-more" href="productpage.html">VIEW</a>
-        </article>
-        <article class="smallProduct">
-          <img src="img/products/equipment/pillows/pillow_1.png" alt="Produkt" />
-          <h3>Singing Bowl</h3>
-          <p class="categoryname">Meditation | Sounds | u:Yoga</p>
-          <p class="price">DKK 499,-</p>
-          <a class="read-more" href="productpage.html">VIEW</a>
-        </article>
-        <article class="smallProduct">
-          <img src="img/products/equipment/pillows/pillow_1.png" alt="Produkt" />
-          <h3>Singing Bowl</h3>
-          <p class="categoryname">Meditation | Sounds | u:Yoga</p>
-          <p class="price">DKK 499,-</p>
-          <a class="read-more" href="productpage.html">VIEW</a>
-        </article>
-        <article class="smallProduct">
-          <img src="img/products/equipment/pillows/pillow_1.png" alt="Produkt" />
-          <h3>Singing Bowl</h3>
-          <p class="categoryname">Meditation | Sounds | u:Yoga</p>
-          <p class="price">DKK 499,-</p>
-          <a class="read-more" href="productpage.html">VIEW</a>
-        </article>
+        <template id="smallProductTemplate">
+          <article class="smallProduct">
+            <img src="img/products/meditation/sounds/sounds_1.png" alt="Produkt" />
+            <h3 class="productName">produkt navn</h3>
+            <p><span class="category">X</span> | <span class="subcategory">Sounds</span> | u:Yoga</p>
+            <p>DKK <span class="price"> xxx</span></p>
+            <a class="read-more" href="productpage.html">VIEW</a>
+          </article>
+        </template>
       </div>
     </main>
     <footer>
@@ -77,6 +58,6 @@
         </form>
       </div>
     </footer>
-    <script src="database.js"></script>
+    <script src="js/equipment.js"></script>
   </body>
 </html>
