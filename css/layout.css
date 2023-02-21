@@ -20,6 +20,26 @@
   padding-left: 2rem;
 }
 
+.music div {
+  text-align: center;
+}
+
+.music button {
+  margin-top: 3rem;
+  border-radius: 50px;
+  border: 1px solid;
+  padding: 1rem 1rem;
+  text-align: center;
+  display: inline-block;
+  border-color: #584c46;
+  font-size: 1.3rem;
+  color: #584c46;
+  background-color: transparent;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
 @media (min-width: 800px) {
   .section2 {
     display: flex;
@@ -53,5 +73,14 @@
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .music {
+    display: flex;
+    justify-content: center;
+  }
+
+  .col {
+    margin: 5rem;
   }
 }

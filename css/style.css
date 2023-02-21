@@ -33,6 +33,33 @@ img {
   /* text-align: center; */
 }
 
+.music h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+}
+
+ol li {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
+h3 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
 .section2 p {
   color: #8e8885;
   font-family: "mr-eaves-xl-modern", sans-serif;
