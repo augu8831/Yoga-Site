@@ -16,12 +16,24 @@
 }
 
 .section2 {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  margin: 2rem;
+}
+
+.posesection {
+  margin: 2rem;
+}
+
+.section3 {
+  margin: 2rem;
 }
 
 .music div {
   text-align: center;
+}
+
+.music img {
+  width: 20%;
+  height: auto;
 }
 
 .music button {
@@ -44,6 +56,15 @@
   .section2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .posesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
   }
 
   .productshow {
@@ -60,26 +81,22 @@
     padding-bottom: 5rem;
   }
 
-  .section2 {
+  /* .section2 {
     display: flex;
     justify-content: flex-start;
     padding: 5rem;
     flex-direction: column;
-  }
+  } */
 
   .section3 {
     display: flex;
-    justify-content: flex-start;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
   }
 
   .music {
     display: flex;
     justify-content: center;
+    gap: 2rem;
   }
-
   .col {
     margin: 2rem;
   }
