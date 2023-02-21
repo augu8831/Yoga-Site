@@ -131,6 +131,42 @@ h3 {
   font-size: 5rem;
 }
 
+.h1text3 {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.h1text2 {
+  position: absolute;
+  top: 55%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.h1text1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
 .boxes {
   margin: 2rem;
   display: flex;
