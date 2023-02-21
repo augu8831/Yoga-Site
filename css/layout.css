@@ -2,10 +2,12 @@
   margin-top: 2rem;
 }
 
+.poseshow {
+  margin: 2rem;
+}
+
 .section1 {
   scroll-padding-bottom: 1rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
 }
 
 .dl_info {
@@ -53,6 +55,13 @@
 }
 
 @media (min-width: 800px) {
+  .yogaimg {
+    display: flex;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+  }
   .section2 {
     display: flex;
     flex-direction: column;
@@ -62,34 +71,64 @@
 
   .posesection {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
-    gap: 2rem;
+    margin: 2rem;
+  }
+  .pose {
+    padding-bottom: 5rem;
+    margin: 2rem;
   }
 
   .productshow {
-    padding: 6rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    /* padding: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0;
+    gap: 0; */
   }
 
-  .section1 {
+  .poseshow {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    /* padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; */
+  }
+  .yogah2 {
     display: flex;
     justify-content: center;
-    padding-left: 5rem;
+    gap: 22rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #584c46;
+    font-size: 1.5rem;
+    letter-spacing: 0.07rem;
+  }
+  .section1 {
+    /* padding-right: 5rem; */
     padding-bottom: 5rem;
   }
 
-  /* .section2 {
+  .section2 {
     display: flex;
-    justify-content: flex-start;
-    padding: 5rem;
+    /* margin: 2rem; */
+    /* padding-right: 2rem; */
     flex-direction: column;
-  } */
+  }
 
   .section3 {
     display: flex;
+    margin: 2rem;
   }
 
   .music {
@@ -102,15 +141,9 @@
   }
   .grid-4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
     margin-top: 20px;
     padding: 5%;
   }
-}
-
-.poseimg {
-  float: left;
-  width: 150px;
-  height: 150px;
 }

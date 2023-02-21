@@ -239,10 +239,17 @@ h3 {
   }
 
   .boxes {
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: row;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    padding-top: 2rem;
+    /* padding: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 4rem; */
     /* margin: 2rem; */
   }
 
