@@ -2,10 +2,12 @@
   margin-top: 2rem;
 }
 
+.poseshow {
+  margin: 2rem;
+}
+
 .section1 {
   scroll-padding-bottom: 1rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
 }
 
 .dl_info {
@@ -62,34 +64,52 @@
 
   .posesection {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
-    gap: 2rem;
+    margin: 2rem;
+  }
+  .pose {
+    padding-bottom: 5rem;
+    margin: 2rem;
   }
 
   .productshow {
-    padding: 6rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    /* padding: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0;
+    gap: 0; */
+  }
+
+  .poseshow {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    /* padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; */
   }
 
   .section1 {
-    display: flex;
-    justify-content: center;
-    padding-left: 5rem;
+    /* padding-right: 5rem; */
     padding-bottom: 5rem;
   }
 
-  /* .section2 {
+  .section2 {
     display: flex;
-    justify-content: flex-start;
-    padding: 5rem;
+    /* margin: 2rem; */
+    /* padding-right: 2rem; */
     flex-direction: column;
-  } */
+  }
 
   .section3 {
     display: flex;
+    margin: 2rem;
   }
 
   .music {
@@ -100,10 +120,11 @@
   .col {
     margin: 2rem;
   }
-.grid-4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 30px;
-  margin-top: 20px;
-  padding: 5%;
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 20px;
+    padding: 5%;
+  }
 }
