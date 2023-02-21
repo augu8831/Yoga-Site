@@ -17,7 +17,7 @@ function showProduct(product) {
   const template = document.querySelector("template").content;
   const copy = template.cloneNode(true);
 
-  copy.querySelector(".productName").textContent = product.productdisplayname;
+  copy.querySelector(".productName").textContent = product.name;
   if (product.soldOut) {
     copy.querySelector("div").classList.add("SoldOut");
   }
