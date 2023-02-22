@@ -6,6 +6,12 @@
   margin: 2rem;
 }
 
+.yogaimg a {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
 .section1 {
   scroll-padding-bottom: 1rem;
 }
@@ -55,6 +61,25 @@
 }
 
 @media (min-width: 800px) {
+  .posetext {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .steps {
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .posename {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .posename h2 {
+    text-align: center;
+  }
   .yogaimg {
     display: flex;
     flex-direction: row;
@@ -70,7 +95,7 @@
 
   .posesection {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     margin: 2rem;
   }
@@ -92,7 +117,7 @@
 
   .poseshow {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 2rem;
     margin: 2rem;
     /* padding: 6rem;

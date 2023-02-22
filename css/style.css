@@ -13,6 +13,19 @@ img {
   height: auto;
 }
 
+.steps p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.steps h3 {
+  font-size: 1.5rem;
+}
+
 .indeximg {
   display: flex;
   justify-content: center;
@@ -21,6 +34,15 @@ img {
 .productpageimg {
   display: flex;
   justify-content: center;
+}
+
+.posesection h2 {
+  border-bottom: 1px solid #584c46;
+  padding-bottom: 3px;
+  text-align: center;
+}
+.posename p {
+  text-align: center;
 }
 
 .section2 h2 {
