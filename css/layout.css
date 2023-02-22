@@ -183,4 +183,11 @@
     text-align: center;
     row-gap: 30px;
   }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 5rem;
+  }
 }

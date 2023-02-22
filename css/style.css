@@ -65,6 +65,25 @@ img {
   /* text-align: center; */
 }
 
+.grid2 p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.grid2 h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 3rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
+}
+
 .music h2 {
   font-family: "quiche-sans", sans-serif;
   font-weight: 400;
