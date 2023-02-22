@@ -13,6 +13,19 @@ img {
   height: auto;
 }
 
+.steps p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.steps h3 {
+  font-size: 1.5rem;
+}
+
 .indeximg {
   display: flex;
   justify-content: center;
@@ -21,6 +34,15 @@ img {
 .productpageimg {
   display: flex;
   justify-content: center;
+}
+
+.posesection h2 {
+  border-bottom: 1px solid #584c46;
+  padding-bottom: 3px;
+  text-align: center;
+}
+.posename p {
+  text-align: center;
 }
 
 .section2 h2 {
@@ -41,6 +63,25 @@ img {
   font-size: 2rem;
   letter-spacing: 0.07rem;
   /* text-align: center; */
+}
+
+.grid2 p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.grid2 h2 {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 3rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
 }
 
 .music h2 {
@@ -129,6 +170,42 @@ h3 {
   font-style: normal;
   color: #ffffff;
   font-size: 5rem;
+}
+
+.h1text3 {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.h1text2 {
+  position: absolute;
+  top: 55%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.h1text1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 4rem;
 }
 
 .boxes {
