@@ -195,3 +195,13 @@
     margin: 5rem;
   }
 }
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  margin: 2rem;
+  padding: 8%;
+  text-align: center;
+  row-gap: 30px;
+}

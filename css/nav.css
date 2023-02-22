@@ -19,6 +19,8 @@ justify-content: center; */
 .mainnav li {
   display: inline-block;
   margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainnav a {
@@ -114,6 +116,66 @@ justify-content: center; */
     margin: 0.5rem;
     width: 8rem;
   }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    border: none;
+    letter-spacing: 0.07rem;
+    text-align: center;
+    padding: 8px 10px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: inherit;
+    margin: 0;
+    color: #584c46;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b29184a8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: #584c46;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f7f4ed;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
 
 .navbar {
@@ -125,21 +187,22 @@ justify-content: center; */
   float: left;
   font-size: 16px;
   color: white;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .dropdown {
-  float: right;
+  float: left;
   overflow: hidden;
 }
 
 .dropdown .dropbtn {
   border: none;
   letter-spacing: 0.07rem;
-  text-align: center;
-  padding: 8px 10px;
+  text-align: right;
+  padding-top: 0.04rem;
+  padding-left: 0.5rem;
   font-weight: 400;
   font-style: normal;
   background-color: inherit;
@@ -161,7 +224,7 @@ justify-content: center; */
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #584c46;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

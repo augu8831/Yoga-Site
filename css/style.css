@@ -55,6 +55,35 @@ img {
   /* text-align: center; */
 }
 
+.grid-4 h3 {
+  /* font-family: "quiche-sans", sans-serif; */
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #584c46;
+  font-size: 1.5rem;
+  letter-spacing: 0.07rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.grid-4 p {
+  color: #8e8885;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0.5rem;
+  line-height: 20px;
+}
+
+.grid-4 a {
+  color: #584c46;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 2rem;
+}
+
 .posesection h2 {
   font-family: "quiche-sans", sans-serif;
   font-weight: 400;
