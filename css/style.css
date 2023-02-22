@@ -199,9 +199,6 @@ h3 {
   font-style: normal;
 }
 
-.categoryname {
-}
-
 @media (min-width: 800px) {
   section img {
     height: auto;
@@ -267,4 +264,16 @@ h3 {
 .productpage5img {
   height: 10px;
   object-fit: none;
+}
+
+.poseimg {
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
+}
+
+.image1 {
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
 }
